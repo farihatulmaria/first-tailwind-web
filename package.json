@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/farihatulmaria/first-tailwind-web/issues"
   },
-  "homepage": "https://github.com/farihatulmaria/first-tailwind-web#readme"
+  "homepage": "https://github.com/farihatulmaria/first-tailwind-web#readme",
+  "devDependencies": {
+    "tailwindcss": "^2.2.19"
+  }
 }
