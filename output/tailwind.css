@@ -32245,6 +32245,34 @@ video {
   content: none;
 }
 
+/* group utilities */
+
+.navbar {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.main-menu ul li {
+  display: inline-block;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.main-menu ul li:hover {
+  --tw-text-opacity: 1;
+  color: rgba(5, 150, 105, var(--tw-text-opacity));
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
