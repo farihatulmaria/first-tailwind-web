@@ -7,8 +7,5 @@
   @apply mx-10 my-10 grid grid-cols-2;
 }
 .main-menu ul li {
-  @apply uppercase inline-block font-semibold text-3xl px-5 py-6 hover:text-green-600;
-}
-.sign {
-  @apply bg-green-500 text-white border-green-500 border-2 hover:bg-white hover:text-green-500;
+  @apply uppercase inline-block font-semibold text-2xl p-l-3 hover:text-green-600;
 }
