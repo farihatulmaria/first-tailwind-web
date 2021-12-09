@@ -3,9 +3,3 @@
 @tailwind utilities;
 
 /* group utilities */
-.navbar {
-  @apply mx-10 my-10 grid grid-cols-2;
-}
-.main-menu ul li {
-  @apply uppercase inline-block font-semibold text-2xl p-l-3 hover:text-green-600;
-}

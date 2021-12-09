@@ -13,32 +13,104 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="navbar">
-      <div class="logo text-green-500 font-bold text-4xl">
-        <a href="index.html" class="uppercase">logo</a>
-      </div>
-      <div class="main-menu">
-        <ul>
-          <li><a href="#">home</a></li>
-          <li><a href="#">about</a></li>
-          <li><a href="#">pages</a></li>
-          <li><a href="#">blog</a></li>
-          <li><a href="#">contect</a></li>
-          <li>
-            <a
-              href="#"
-              class="
-                px-5
-                py-6
-                bg-green-500
-                text-white
-                border-green-500 border-4
-                hover:bg-white hover:text-green-500
-              "
-              >sign up</a
-            >
-          </li>
-        </ul>
+    <div
+      style="background-image: url('/assets/img/profile/background.png')"
+      class="
+        w-full
+        h-screen
+        bg-cover bg-center
+        flex
+        items-center
+        justify-center
+      "
+    >
+      <div
+        class="
+          text-center
+          bg-red-400
+          px-20
+          py-20
+          text-white
+          relative
+          rounded-lg
+        "
+      >
+        <img
+          src="assets/img/profile/menu.png"
+          alt=""
+          class="w-8 absolute top-8 left-8"
+        />
+        <img
+          src="assets/img/profile/setting.png"
+          alt=""
+          class="w-8 absolute top-8 right-8"
+        />
+        <img
+          src="assets/img/profile/profile-pic.png"
+          alt=""
+          class="w-50 p-2 bg-white rounded-full mb-5"
+        />
+        <h3 class="capitalize font-semibold text-3xl">jack nicholson</h3>
+        <p class="capitalize text-xl mt-5">
+          web developer at google , california
+        </p>
+        <div class="social-icons my-4">
+          <img
+            src="assets/img/profile/instagram.png"
+            alt=""
+            class="inline-block px-2"
+          />
+          <img
+            src="assets/img/profile/telegram.png"
+            alt=""
+            class="inline-block px-2"
+          />
+          <img
+            src="assets/img/profile/dribble.png"
+            alt=""
+            class="inline-block px-2"
+          />
+        </div>
+        <br />
+
+        <div
+          class="
+            bg-white
+            text-gray-500 text-center
+            px-0
+            py-20
+            -mx-20
+            -mb-20
+            rounded-lg
+            relative
+          "
+        >
+          <button
+            class="
+              follow
+              bg-white
+              text-center text-red-500
+              font-semibold
+              uppercase
+              shadow-xl
+              outline-none
+              px-10
+              py-5
+              rounded-full
+              absolute
+              -top-6
+              right-1/3
+            "
+          >
+            follow
+          </button>
+          <h3 class="text-2xl">Learn more about my work</h3>
+          <img
+            src="assets/img/profile/arrow.png"
+            alt=""
+            class="text-center absolute left-60 top-32"
+          />
+        </div>
       </div>
     </div>
     <!-- scripts -->
